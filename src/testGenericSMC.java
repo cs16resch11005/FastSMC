@@ -24,13 +24,15 @@ public class testGenericSMC
 			public void write(int b){  NO-OP  }
 		}));*/		 
 
-		System.setOut(new PrintStream(new FileOutputStream("output2.txt")));		
+		String outFile = System.getProperty("user.dir")+ "/../" +"Output/output.txt";
+		String resFile = System.getProperty("user.dir")+ "/../" +"Output/results.txt";
+		System.setOut(new PrintStream(new FileOutputStream(outFile)));		
 
-		File fe = new File("results.txt");    
+		File fe = new File(resFile);    
 		if(fe.exists())
 			fe.delete();
 
-		File configFile =  new File(System.getProperty("user.dir")+ "/" +"Config/config.properties");
+		File configFile =  new File(System.getProperty("user.dir")+ "/../" +"Config/config.properties");
 		ConfigParameters cp = new ConfigParameters(configFile);
 		cp.read_configFile();		
 		
@@ -52,7 +54,7 @@ public class testGenericSMC
 			Simulation sm = new Simulation(0);
 			sm.preConfiguration();
 
-			FileWriter fw =  new FileWriter("results.txt", true);
+			FileWriter fw =  new FileWriter(resFile, true);
 		
 			if(sm.isQuerySatisfied)
 			{
@@ -72,7 +74,7 @@ public class testGenericSMC
 
 		int totalRuns = numFailure+numSucess;
 
-		FileWriter fw =  new FileWriter("results.txt", true);
+		FileWriter fw =  new FileWriter(resFile, true);
 		fw.write("\nnum Sucess  : " + numSucess +"\tnum Failure : " + numFailure);
 		fw.write("\nProbability of given query has been satisfied : " + (double)numSucess/totalRuns+"\n");
 		long endTime = System.currentTimeMillis();

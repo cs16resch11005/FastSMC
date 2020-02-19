@@ -142,7 +142,7 @@ public class Simulation
 			//System.out.println("City Id " + cityId + " :" + count[cityId]);
 		}
 		
-		System.out.println("Number of Cities Satisfied : " + satCities);
+		//System.out.println("Number of Cities Satisfied : " + satCities);
 		
 		if(satCities >= (unionNbrsList1K.size()))
 		{

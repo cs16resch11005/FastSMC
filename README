@@ -7,8 +7,8 @@ Steps to run the Simulation:
 
 1.Run src/testSMC.java 
   cd src/
-  javac testSMC.java 
-  java testSMC
+  javac testGenericSMC.java 
+  java testGenericSMC
 
 
 Important: To run the simulation for either different agents or different grid size, first you have to set these parameters in Config/config.properties, and then follow the above steps. 
@@ -17,6 +17,4 @@ Note: To compare exaustive-simulation with semicone-shape-sampling and cylinder-
 
 2.Run sampling.sh    
   ./sampling.sh
-# FastSMC-1
-# FastSMC-1
-# FastSMC
+#FastSMC

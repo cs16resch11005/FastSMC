@@ -1,0 +1,25 @@
+Num of Nodes             :10000
+Simulation Time Units    :15
+Total Population         :1000000
+Num of Health Care Units :0
+Num of initial Infected  :0
+HCU Sample Size          :4
+local probability        :1.0
+Infected  Threshold      :1.0
+Infection Rate           :0.2
+Recovery Rate            :0.03
+CI			             :0.3
+Epsilon                  :0.3
+/home/ramesh/Desktop/4/FastSMC-1/src/../Input/Network/Resources/initial_infected_people_list.txt
+/home/ramesh/Desktop/4/FastSMC-1/src/../Input/Network/Resources/initial_population_at_each_node.txt
+/home/ramesh/Desktop/4/FastSMC-1/src/../Input/SimData/Position/
+/home/ramesh/Desktop/4/FastSMC-1/src/../Input/SimData/State/
+/home/ramesh/Desktop/4/FastSMC-1/src/../Output/
+FINALLY(AP(ALL, 1, 2, ==))
+
+Num of Runs : 11
+
+Fraction of cities satisfied query : 0.5331989698801926
+
+
+Execution Time testGenericSMC:16392

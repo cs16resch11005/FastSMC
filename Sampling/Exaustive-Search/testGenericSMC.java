@@ -29,7 +29,7 @@ public class testGenericSMC
 		if(fe.exists())
 			fe.delete();
 
-		File configFile =  new File(System.getProperty("user.dir")+ "/" +"Config/config.properties");
+		File configFile =  new File(System.getProperty("user.dir")+ "/../../" +"Config/config.properties");
 		ConfigParameters cp = new ConfigParameters(configFile);
 		cp.read_configFile();		
 		

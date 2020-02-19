@@ -1,0 +1,18 @@
+
+Iteration Id : 0	Failure  	Query SAT Time: 14 	Num Cities:848
+Iteration Id : 1	Failure  	Query SAT Time: 14 	Num Cities:792
+Iteration Id : 2	Failure  	Query SAT Time: 14 	Num Cities:906
+Iteration Id : 3	Failure  	Query SAT Time: 14 	Num Cities:791
+Iteration Id : 4	Failure  	Query SAT Time: 14 	Num Cities:886
+Iteration Id : 5	Failure  	Query SAT Time: 14 	Num Cities:911
+Iteration Id : 6	Failure  	Query SAT Time: 14 	Num Cities:924
+Iteration Id : 7	Failure  	Query SAT Time: 14 	Num Cities:969
+Iteration Id : 8	Failure  	Query SAT Time: 14 	Num Cities:691
+Iteration Id : 9	Failure  	Query SAT Time: 14 	Num Cities:918
+Iteration Id : 10	Failure  	Query SAT Time: 14 	Num Cities:888
+num Sucess  : 0	num Failure : 11
+Probability of given query has been satisfied : 0.0
+
+Fraction of cities satisfied query : 0.5331989698801926
+
+Execution Time testGenericSMC:16392

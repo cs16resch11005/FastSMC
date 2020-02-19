@@ -110,7 +110,7 @@ public class Simulation
 			//System.out.println("City Id " + i + " :" + count[i]);
 		}
 		
-		System.out.println("Number of Cities Satisfied : " + satCities);
+		//System.out.println("Number of Cities Satisfied : " + satCities);
 		
 		if(satCities >= (ConfigParameters.num_Nodes))//ConfigParameters.local_Prob*
 		{
